@@ -1,0 +1,181 @@
+/* As expecificações para identificar de qual página se refere o id ou a class, são: al (Iniciais dos nomes dos Dev.) e op(Opcional). */
+
+* { /*Configuração Global*/
+    margin: 0px;
+    padding: 0px;}
+body { /*Configuração Total*/
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;}
+
+    
+/*---------------- CSS Index -------------------------*/
+#al_cabecalho {  /* Cabeçalho */
+    margin-left: 20px;}
+#al_cabecalho h1 { /* Titulo do Cabeçalho */
+    font-size: 27pt;
+    text-align: center;
+    margin-top: 15px;}
+#al_cabecalho h3 {  /* Subtitulo do Cabeçalho */
+    font-size: 17pt;}
+#al_cabecalho ul { /*Lista não Ordenada do Cabeçalho */
+   margin-left: 15px; }
+#al_cabecalho li {/* Conteudo da Lista do Cabeçalho */
+    padding: 2px;}
+
+#al_container h2 { /* Titulo do Conteudo */
+    font-size: 20pt;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;}
+#al_container { /* Conteúdo da Página */
+    margin-left: 20px;}
+
+#al_enum li{ /*Margem entre as questões*/
+    margin: 5px;
+    margin-left: 20px;}
+
+#al_divisoria { /* Divisoria de Conteudo*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1.2px solid rgba(000, 000, 000, 0.3);}
+
+#al_rodape { /* Roda Pé */
+    padding-top: 5px;
+    height: 80px;
+    background-color: #D2E6E8;}
+#al_rodape h3 { /* Titulo do Roda Pé */
+    font-size: 18pt;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;}
+#al_rodape ul { /* Lista do Roda Pé */
+    color:#06024e;
+    margin-left: 450px;
+    text-decoration: none;}
+
+
+#al_link li { /* Lista dos links */
+    display: inline-block;}
+#al_link a { /* Formatação do Link */
+    font-size: 15pt;
+    color:#06024e;
+    text-decoration: none;}
+#al_link a:hover {/* Efeito no link */
+    color: #FF4500;}
+
+
+#op_container h1 { 
+    margin-left: 370px;
+    margin-bottom: 0px;
+    font-size: 20pt;}
+
+
+/*------------------- Formulário Principal-------------------------*/
+#al_formcontainer { /*Configuração da div*/
+    background-color: #E2FCFF;
+    border: 3px solid #89B3B7;
+    border-radius: 6px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    width: 370px;
+    padding: 10px;}
+#al_formcontainer h1 { /* Titulo Formulário */
+    margin-top: 0px;
+    margin-bottom: 23px;
+    text-align: center;}
+
+#al_forminfo { /* Conteudo do Formulário */
+    margin: -6px;
+    font-size: 13pt;
+    padding-left: 10px;}
+#iregiao { /* Input Select */
+    background-color: #B0DADC;
+    border: 1.5px solid #B0DADC;
+    border-radius: 2px;
+    padding: 3px;}
+
+.al-botao { /* Botão Gravr e Limpar */
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 50px;}
+.al-botao input { /* Botão Gravr e Limpar Especifico */
+    background-color: #f1fbff;
+    border: 1.5px solid #89B3B7;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 40px;
+    height: 30px;
+    width: 70px;}
+
+#al_formrodape { /* Configuração do Footer */
+    background-color: #D2E6E8;
+    height: 60px;
+    margin-top: 33px;
+    margin-bottom: 0px;}
+.al-formrodpe { /* Configuração do Fotter Especifica */
+    text-align: center;
+    padding: 20px; }
+.al-formrodpe li{ /* Lista do Footer */
+    text-decoration: none;
+    display: inline-block;}
+
+#al_formrodape a { /* Formatação do Link */
+    font-size: 15pt;
+    color:#06024e;
+    text-decoration: none;}
+#al_formrodape a:hover {/* Efeito no link */
+    color: #FF4500;}
+
+
+/*------------------- Formulário Opcional-------------------------*/
+#op_container h1 { /* Titulo do Conteudo */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 390px;}
+
+#op_form fieldset { /* Margem inferior das caixas */
+    margin-bottom: 5px;}
+
+#op_caixa { /* Configuração do Fieldset */
+    background-color: #E2FCFF;
+    border: 1.5px solid #89B3B7;
+    width: 500px;
+    margin: auto;}
+
+#op_info { /* Informações do Formulário */
+    margin: 5px;}
+
+.op-botao {  /* Botões de Limpar e Enviar */
+    display: inline-block;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 500px;}
+.op-botao input { /* Botões de Limpar e Enviar Especifico */
+    background-color: #f1fbff;
+    border: 1.5px solid #89B3B7;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 40px;
+    height: 30px;
+    width: 70px;}
+
+#op_formrodape { /* Roda Pé */ 
+    background-color: #D2E6E8;
+    height: 60px;
+    margin-top: 35px;
+    margin-bottom: 0px;}
+.op-formrodpe { /* Roda Pé Especifico */
+    text-align: center;
+    padding: 20px; }
+.op-formrodpe li{ /* Lista Roda Pé */
+    text-decoration: none;
+    display: inline-block;}
+
+#op_formrodape a { /* Formatação do Link */
+    font-size: 15pt;
+    color:#06024e;
+    text-decoration: none;}
+#op_formrodape a:hover {/* Efeito no link */
+    color: #FF4500;}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/style.css"/> <!-- Linnk CSS -->
+    <title>Formulário</title>
+</head>
+<body>
+    <aside>
+        <div id="al_formcontainer">
+            <h1>Formulário</h1>
+            <form id="al_form" method="get">
+                <div id="al_forminfo">
+                    <label for="inome">Nome:</label>
+                    <input type="text" id="inome" name="inome">
+                </div>
+                <br/>
+
+                <div id="al_forminfo">
+                    <label for="idata">Data de Nascimento:</label>
+                    <input type="date" id="idata" name="idata">
+                </div>
+                <br/>
+                
+                <div id="al_forminfo">
+                    <label>Sexo:</label>
+                    <input type="radio" id="isexo" name="isexo" value="Masculino">
+                    <label for="isexo">Masculino</label>
+
+                    <input type="radio" id="isexo" name="isexo" value="Feminino">
+                    <label for="isexo">Feminino</label>
+
+                    <input type="radio" id="isexo" name="isexo" value="nao_informa">
+                    <label for="isexo">Prefiro não informar</label>
+                </div>
+                <br/>
+
+                <div id="al_forminfo">
+                    <label for="iendereco">Endereço:</label>
+                    <input type="text" id="iendereco" name="iendereco">
+                </div>
+                <br/>
+
+                <div id="al_forminfo">
+                    <label for="ilogradouro">Logradouro:</label>
+                    <input type="text" id="ilogradouro" name="ilogradouro">
+                </div>
+                <br/>
+                <div id="al_forminfo">
+                    <label for="ibairro">Bairro:</label>
+                    <input type="text" id="ibairro" name="ibairro">
+                </div>
+                <br/>
+
+                <div id="al_forminfo">
+                    <label for="icidade">Cidade:</label>
+                    <input type="text" id="icidade" name="icidade">
+                </div>
+                <br/>
+
+                <div id="al_forminfo">
+                    <label for="iregiao">UF:</label>
+                    <select name="iregiao" id="iregiao">
+                        <option value="iac">Águas Claras</option>
+                        <option value="ias">Asa Sul</option>
+                        <option value="ian">Asa Norte</option>
+                        <option value="ici">Ceilândia</option>
+                        <option value="igm">Gama</option>
+                        <option value="igrI">Guará I</option>
+                        <option value="igrII">Guará II</option>
+                        <option value="iln">Lago Norte</option>
+                        <option value="ils">Lago Sul</option>
+                        <option value="ipr">Paranoá</option>
+                        <option value="isb">Samambaia</option>
+                        <option value="ism">Santa Maria</option>
+                        <option value="itg">Taguatinga</option>
+                        <option value="ival">Valparaiso</option>
+                    </select>
+                </div>
+                <br/>
+
+                <div id="al_forminfo">
+                    <label for="iemail">Email:</label>
+                    <input type="email" id="iemail" name="iemail">
+                </div>
+                <br/>
+
+                <div class="al-botao">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </aside>
+
+    <footer id="al_formrodape">
+        <ul class="al-formrodpe">
+            <li>Volte para a <a href="index.html">Atividade</a></li>
+            <li>&nbsp;-&nbsp;</li>
+            <li>Vá para o <a href="form_opcional.html">Formulario Opcional</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
